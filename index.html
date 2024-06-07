@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object: Edutech & Library App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Object: Edutech & Library App</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#library">Library</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h2>Welcome to Object</h2>
+            <p>Your one-stop solution for learning and resource sharing in the field of Computer Science.</p>
+            <button onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Object is an Edutech & Library App designed to provide top-quality courses in Computer Science, including Network Specialist, Data Scientist, and Cyber Security. Our library also hosts a collection of books and articles donated by volunteers to support learning.</p>
+        </div>
+    </section>
+
+    <section id="courses">
+        <div class="courses-content">
+            <h2>Our Courses</h2>
+            <div class="course-list">
+                <div class="course">
+                    <h3>Network Specialist</h3>
+                    <p>Become an expert in network design, implementation, and maintenance.</p>
+                </div>
+                <div class="course">
+                    <h3>Data Scientist</h3>
+                    <p>Master the skills to analyze and interpret complex data to make informed decisions.</p>
+                </div>
+                <div class="course">
+                    <h3>Cyber Security</h3>
+                    <p>Learn to protect systems, networks, and programs from digital attacks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="library">
+        <div class="library-content">
+            <h2>Library</h2>
+            <p>Explore our vast collection of books and articles donated by volunteers.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-content">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Object: Edutech & Library App. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
